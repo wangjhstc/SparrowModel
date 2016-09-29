@@ -10,4 +10,8 @@
 
 @interface MLoginResponse : NSObject
 
+@property   (nonatomic,copy)    NSString    *shopName;
+/*! 消费模式 */
+@property   (nonatomic,assign)  NSInteger   mode;
+
 @end
