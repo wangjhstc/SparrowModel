@@ -9,5 +9,14 @@
 #ifndef MInterface_h
 #define MInterface_h
 
+//MARK:Commodity
+#import "MCommodity.h"
+
+//MARK:Order
+#import "MOrderModel.h"
+
+//MARK:Login
+#import "MUserModel.h"
+#import "MLoginResponse.h"
 
 #endif /* MInterface_h */
