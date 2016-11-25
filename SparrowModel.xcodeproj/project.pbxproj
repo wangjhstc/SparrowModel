@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8AC8C52A1DE80A0E006CDFAD /* Guide.MD in Sources */ = {isa = PBXBuildFile; fileRef = 8AC8C5291DE80A0E006CDFAD /* Guide.MD */; };
 		8AD4B7151D9CBCDE004C8704 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4B70A1D9CBCDE004C8704 /* AppDelegate.m */; };
 		8AD4B7161D9CBCDE004C8704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AD4B70B1D9CBCDE004C8704 /* Assets.xcassets */; };
 		8AD4B7171D9CBCDE004C8704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD4B70C1D9CBCDE004C8704 /* LaunchScreen.storyboard */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8AC8C5291DE80A0E006CDFAD /* Guide.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Guide.MD; sourceTree = "<group>"; };
 		8AD4B6ED1D9CBC84004C8704 /* SparrowModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparrowModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD4B7091D9CBCDE004C8704 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AD4B70A1D9CBCDE004C8704 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -73,6 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8AC8C5281DE80A0E006CDFAD /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				8AC8C5291DE80A0E006CDFAD /* Guide.MD */,
+			);
+			path = Document;
+			sourceTree = "<group>";
+		};
 		8AD4B6E41D9CBC84004C8704 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +104,7 @@
 		8AD4B7071D9CBCDE004C8704 /* SparrowModel */ = {
 			isa = PBXGroup;
 			children = (
+				8AC8C5281DE80A0E006CDFAD /* Document */,
 				8AD4B7081D9CBCDE004C8704 /* Demo */,
 				8AD4B7141D9CBCDE004C8704 /* Src */,
 			);
@@ -272,6 +283,7 @@
 				8AD4B71B1D9CBCDE004C8704 /* ViewController.m in Sources */,
 				8AD4B72A1D9CBE24004C8704 /* MOrderModel.m in Sources */,
 				8AD4B71A1D9CBCDE004C8704 /* main.m in Sources */,
+				8AC8C52A1DE80A0E006CDFAD /* Guide.MD in Sources */,
 				8AD4B7151D9CBCDE004C8704 /* AppDelegate.m in Sources */,
 				8AD4B7261D9CBDEE004C8704 /* MLoginResponse.m in Sources */,
 			);
@@ -479,6 +491,7 @@
 				8AD4B78F1D9E5710004C8704 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
